@@ -143,8 +143,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-    vendor/cm/prebuilt/hololauncherhd/HoloLauncherHD.apk:system/app/HoloLauncherHD.apk \
-    vendor/cm/prebuilt/Nova.apk:system/app/Nova.apk \
     vendor/cm/prebuilt/appsetting.apk:system/app/appsetting.apk \
     vendor/cm/prebuilt/xposed_installer.apk:system/app/xposed_installer.apk
 
@@ -198,7 +196,6 @@ PRODUCT_PACKAGES += \
     ScreenRecorder \
     libscreenrecorder \
     BeanStalkPapers \
-    BeanStalkOTA \
     Apollo \
     MonthCalendarWidget \
     LockClock \
